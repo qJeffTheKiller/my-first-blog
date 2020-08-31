@@ -31,6 +31,7 @@ h2, h3, h4 {
 .date {
     color: #828282 !important;
     display: flex !important;
+    font-size: 8pt;
 }
 
 .save {
@@ -52,7 +53,7 @@ h2, h3, h4 {
 .post {
     margin-bottom: 70px;
     font-family: "Roboto", sans-serif !important;
-    font-size: 20pt;
+    font-size: 28pt;
 }
 
 h2.post{
@@ -69,7 +70,7 @@ p.top-menu, p.top-menu:hover {
 
 .postTitle{
     color: #23B5D3;
-    font-size: 34pt;
+    font-size: 40pt;
     align-self: center;
     font-family: 'Alata', sans-serif;
 }
@@ -83,6 +84,7 @@ p.top-menu, p.top-menu:hover {
 .comment p{
     font-family: 'Slabo', serif;
     font-size: 15pt;
+    margin-left: 6px;
 }
 
 .comment{
@@ -94,13 +96,14 @@ p.top-menu, p.top-menu:hover {
 
 .post-text{
     font-family: 'Roboto', sans-serif;
-    font-size: 40pt;
+    font-size: 50pt;
 }
 
 .author{
-    margin-top: 50px;
+    margin-top: 2px;
+    font-size: 20pt;
 }
 
 .comm-number{
-    font-size: 10pt !important;
+    font-size: 15pt !important;
 }
