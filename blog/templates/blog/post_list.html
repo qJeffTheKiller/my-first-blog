@@ -8,6 +8,9 @@
                 <i class = 'postDate'> {{ post.published_date }} </i>   
             </div>
             <p>{{ post.text|linebreaksbr }}</p>
+            <div class="comm-number">
+                <a href="{% url 'post_detail' pk=post.pk %}">Comments: {{ post.comments.count }}</a>
+            </div>
         </div>
     {% endfor %}
 {% endblock %}

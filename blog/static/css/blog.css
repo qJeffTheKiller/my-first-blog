@@ -29,7 +29,7 @@ h2, h3, h4 {
 }
 
 .date {
-    color: #828282;
+    color: #828282 !important;
     display: flex !important;
 }
 
@@ -51,6 +51,8 @@ h2, h3, h4 {
 
 .post {
     margin-bottom: 70px;
+    font-family: "Roboto", sans-serif !important;
+    font-size: 20pt;
 }
 
 h2.post{
@@ -62,16 +64,43 @@ p.top-menu, p.top-menu:hover {
     color: #0B191E;
     font-size: 15pt;
     margin-top: 35px;
-    font-famil'
-    y: 'Alata', sans-serif;
+    font-family: 'Alata', sans-serif;
 }
 
 .postTitle{
-    font-size: 30px;
+    color: #23B5D3;
+    font-size: 34pt;
     align-self: center;
+    font-family: 'Alata', sans-serif;
 }
 
 .postDate{
     align-self: center;
     margin-left: 20px;
+    font-size: 13px !important;
+}
+
+.comment p{
+    font-family: 'Slabo', serif;
+    font-size: 15pt;
+}
+
+.comment{
+    margin: 30px 0px 20px 20px;
+    background-color: white;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.post-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40pt;
+}
+
+.author{
+    margin-top: 50px;
+}
+
+.comm-number{
+    font-size: 10pt !important;
 }
